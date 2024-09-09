@@ -106,7 +106,7 @@
         <Border x:Name="imgIntro"
                 Opacity="0"
                 Padding="24, 32"
-                BackgroundColor="{StaticResource FrameBackground}"
+                BackgroundColor="{StaticResource FrameBackgroundColor}"
                 Stroke="{StaticResource BorderColor}"
                 HorizontalOptions="Fill"
                 VerticalOptions="End"
