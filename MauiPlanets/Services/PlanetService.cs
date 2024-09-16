@@ -1,9 +1,4 @@
 ﻿using MauiPlanets.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MauiPlanets.Services
 {
@@ -14,93 +9,62 @@ namespace MauiPlanets.Services
             new()
             {
                 Name = "Mercury",
-                Subtitle = "  The Smallest Planet",
+                Subtitle = "The smallest planet",
                 HeroImage = "mercury.png",
-                Description = "Mercury is the first planet from the Sun and the smallest in the Solar System. " +
-                "It is a terrestrial planet with a heavily cratered surface due to overlapping impact events. " +
-                "These features are well preserved since the planet has no geological activity and an extremely " +
-                "tenuous atmosphere called an exosphere. Despite being the smallest planet in the Solar System " +
-                "with a mean diameter of 4,880 km (3,030 mi), 38% of that of Earth, Mercury is dense enough to " +
-                "have roughly the same surface gravity as Mars. Mercury has a dynamic magnetic field with a " +
-                "strength about 1% of that of Earth's and has no natural satellites.",
+                Description = "Mercury is the first planet from the Sun and the smallest in the Solar System. In English, it is named after the ancient Roman god Mercurius (Mercury), god of commerce and communication, and the messenger of the gods. ",
                 AccentColorStart = Color.FromArgb("#353535"),
                 AccentColorEnd = Color.FromArgb("#8d9098"),
                 Images = new()
                 {
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/04/EW0108829708G4release_mercury-jpg.webp",
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/05/pia19422-mercury.jpg",
-                    "https://www.universetoday.com/wp-content/uploads/2014/12/Mercury-Messenger-enhanced-color.jpg"
+                    "https://cdn.theatlantic.com/thumbor/D15rQggf6357X1-u6VpTD2N1yQE=/0x27:1041x613/976x549/media/img/mt/2017/04/MercuryImage/original.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/73_carousel_mercury_2.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/75_mercury_carousel_1.jpg"
                 }
             },
-
             new()
             {
                 Name = "Venus",
-                Subtitle = " The Pressure Cooker",
+                Subtitle = "The pressure cooker",
                 HeroImage = "venus.png",
-                Description = "Venus is the second planet from the Sun. It is a rocky planet with the densest " +
-                "atmosphere of all the rocky bodies in the Solar System, and the only one with a mass and size " +
-                "that is close to that of its orbital neighbour Earth. Orbiting inferiorly (inside of Earth's " +
-                "orbit), it appears in Earth's sky always close to the Sun, as either a \"morning star\" or an " +
-                "\"evening star\". While this is also true for Mercury, Venus appears much more prominently, since " +
-                "it is the third brightest object in Earth's sky after the Moon and the Sun,[20][21] appearing " +
-                "brighter than any other star-like classical planet or any fixed star. With such prominence in Earth's " +
-                "sky, Venus has historically been a common and important object for humans, in both their cultures and astronomy. ",
+                Description = "Of all the planets, Venus is the one most similar to Earth. In fact, Venus is often called Earth's “sister” planet. As similar as it is in some ways, however, it is also very different in others. ",
                 AccentColorStart = Color.FromArgb("#a6393b"),
                 AccentColorEnd = Color.FromArgb("#d17f21"),
                 Images = new()
                 {
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/05/venus-single.png",
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://images-assets.nasa.gov/image/PIA13001/PIA13001~orig.jpg%3Fw=1920%26h=1080%26fit=clip%26crop=faces%252Cfocalpoint",
-                    "https://cdn.mos.cms.futurecdn.net/kaPwBjHiUKax8syodHNPmF.jpg"
+                    "https://solarsystem.nasa.gov/system/feature_items/images/143_Venus-800x600.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/147_Hubble_Venus_Clouds-800x600.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/146_venus_carousel_3.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/144_PIA00485_Venus_Caldera-800.jpg"
                 }
-
             },
-
             new()
             {
                 Name = "Earth",
-                Subtitle = " The Cradle of Life",
+                Subtitle = "The cradle of life",
                 HeroImage = "earth.png",
-                Description = "Earth is the third planet from the Sun and the only astronomical object known to harbor life. " +
-                "This is enabled by Earth being a water world, the only one in the Solar System sustaining liquid surface water. " +
-                "Almost all of Earth's water is contained in its global ocean, covering 70.8% of Earth's crust. The remaining " +
-                "29.2% of Earth's crust is land, most of which is located in the form of continental landmasses within one hemisphere," +
-                " Earth's land hemisphere. Most of Earth's land is somewhat humid and covered by vegetation, while large sheets of " +
-                "ice at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers and atmospheric water combined." +
-                " Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and " +
-                "earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive" +
-                " solar winds and cosmic radiation.",
+                Description = "The Earth is the only planet known where life exists. Almost 1.5 million species of animals and plants have been discovered so far, and many more have yet to be found. While other planets may have small amounts of ice or steam, the Earth is 2/3 water. Earth has perfect conditions for a breathable atmosphere. ",
                 AccentColorStart = Color.FromArgb("#0e3d68"),
                 AccentColorEnd = Color.FromArgb("#2e97c7"),
                 Images = new()
                 {
-                    "https://cdn.britannica.com/25/160325-050-EB1C8FB7/image-instruments-Earth-satellite-NASA-Suomi-National-2012.jpg",
-                    "https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg",
-                    "https://assets.weforum.org/editor/PTYtTC2H8A2aSCo1uw7GINVgSicFzjTiZETCg9Bqk1Q.png",
-                    "https://images.immediate.co.uk/production/volatile/sites/7/2018/02/Earth-from-space-1-64e9a7c.jpg?quality=90&resize=980,654"
+                    "https://solarsystem.nasa.gov/system/feature_items/images/68_epicearthmoonstill_800.png",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/69_earth_carousel_3.jpg",
+                    "https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg?width=778"
                 }
-
             },
-
             new()
             {
                 Name = "Mars",
-                Subtitle = " The Iron Planet",
+                Subtitle = "The red beauty",
                 HeroImage = "mars.png",
-                Description = "Mars is the fourth planet and the furthest terrestrial planet from the Sun. The reddish color" +
-                " of its surface is due to finely grained iron(III) oxide dust in the soil, giving it the nickname " +
-                "the Red Planet. Mars's radius is second smallest among the planets in the Solar System at 3,389.5 km " +
-                "(2,106 mi). The Martian dichotomy is visible on the surface: on average, the terrain on Mars's northern " +
-                "hemisphere is flatter and lower than its southern hemisphere. Mars has a thin atmosphere made primarily " +
-                "of carbon dioxide, and two irregularly shaped natural satellites, Phobos and Deimos. ",
+                Description = "No planet has sparked the imaginations of humans as much as Mars. It may be the reddish color of Mars, or the fact that it can often be easily seen in the night sky, that has caused people to wonder about this close neighbor of ours. Tales of “Martians” invading Earth have been around for well over fifty years. But is it likely that any kind of life really does exist on Mars? ",
                 AccentColorStart = Color.FromArgb("#a23036"),
                 AccentColorEnd = Color.FromArgb("#eb3333"),
                 Images = new()
                 {
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://images-assets.nasa.gov/image/PIA02653/PIA02653~large.jpg%3Fw=1920%26h=1920%26fit=clip%26crop=faces%252Cfocalpoint",
-                    "https://static01.nyt.com/images/2014/12/09/science/09life/09life-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale",
-                    "https://www.science.org/do/10.1126/science.aau8871/abs/ca_0727NID_Mars_South_Polar_Ice_Cap_online.jpg"
+                    "https://researchfdi.com/wp-content/uploads/2021/10/8944_1-PIA24546-1280.jpeg",
+                    "https://www.worldatlas.com/r/w1300-q80/upload/bb/c3/32/shutterstock-1041249343.jpg",
+                    "https://www.openaccessgovernment.org/wp-content/uploads/2021/04/dreamstime_xxl_121672573-scaled.jpg"
                 }
             },
 
@@ -119,9 +83,9 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#cd8026"),
                 Images = new()
                 {
-                    "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/09/hubble_captures_crisp_new_image_of_jupiter_and_europa/22212206-1-eng-GB/Hubble_Captures_Crisp_New_Image_of_Jupiter_and_Europa_pillars.jpg",
-                    "https://cdn.vox-cdn.com/thumbor/3hRXvyoAnTO45HJIl1_VloqMNSA=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10842939/pia21974.jpg",
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://images-assets.nasa.gov/image/hubble-captures-vivid-auroras-in-jupiters-atmosphere_28000029525_o/hubble-captures-vivid-auroras-in-jupiters-atmosphere_28000029525_o~large.jpg%3Fw=1920%26h=1913%26fit=clip%26crop=faces%252Cfocalpoint"
+                    "https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
                 }
 
             },
@@ -138,9 +102,10 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#c6502f"),
                 Images = new()
                 {
-                   "https://science.nasa.gov/_ipx/w_2048&f_webp/https://images-assets.nasa.gov/image/PIA02225/PIA02225~orig.jpg%3Fw=900%26h=1000%26fit=clip%26crop=faces%252Cfocalpoint",
-                   "https://science.nasa.gov/_ipx/w_2048&f_webp/https://images-assets.nasa.gov/image/PIA02230/PIA02230~orig.jpg%3Fw=480%26h=410%26fit=clip%26crop=faces%252Cfocalpoint",
-                   "https://science.nasa.gov/_ipx/w_2048&f_webp/https://images-assets.nasa.gov/image/PIA08392/PIA08392~orig.jpg%3Fw=1018%26h=1018%26fit=clip%26crop=faces%252Cfocalpoint"
+                    "https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
                 }
 
             },
@@ -161,9 +126,9 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#996237"),
                 Images = new()
                 {
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://images-assets.nasa.gov/image/PIA18182/PIA18182~orig.jpg%3Fw=1720%26h=1720%26fit=clip%26crop=faces%252Cfocalpoint",
-                    "https://science.nasa.gov/_ipx/w_2048&f_webp/https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000100/GSFC_20171208_Archive_e000100~orig.jpg%3Fw=1280%26h=1083%26fit=clip%26crop=faces%252Cfocalpoint",
-                    "https://helios-i.mashable.com/imagery/articles/00brT8KigfbwzWQGzuYj8S4/hero-image.fill.size_1200x900.v1623382117.png"
+                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg"
                 }
 
             },
@@ -185,8 +150,9 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
                 {
-                 "https://science.nasa.gov/_ipx/w_2048&f_webp/https://images-assets.nasa.gov/image/PIA01492/PIA01492~large.jpg%3Fw=1920%26h=1917%26fit=clip%26crop=faces%252Cfocalpoint",
-                 "https://science.nasa.gov/_ipx/w_2048&f_webp/https://images-assets.nasa.gov/image/PIA01142/PIA01142~orig.jpg%3Fw=945%26h=870%26fit=clip%26crop=faces%252Cfocalpoint"
+                    "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
+                    "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
                 }
 
             },
@@ -211,92 +177,6 @@ namespace MauiPlanets.Services
                 }
 
             },
-
-            new()
-            {
-                Name = "Eris",
-                Subtitle = " The Goddess of Chaos",
-                HeroImage = "eris.png",
-                Description = "Eris (minor-planet designation 136199 Eris) is the most massive and second-largest known " +
-                "dwarf planet in the Solar System. It is a trans-Neptunian object (TNO) in the scattered disk and " +
-                "has a high-eccentricity orbit. Eris was discovered in January 2005 by a Palomar Observatory–based team " +
-                "led by Mike Brown and verified later that year. In September 2006, it was named after the Greco–Roman " +
-                "goddess of strife and discord. Eris is the ninth-most massive known object orbiting the Sun and the " +
-                "sixteenth-most massive overall in the Solar System (counting moons). It is also the largest known object " +
-                "in the solar system that has not been visited by a spacecraft. Eris has been measured at 2,326 ± 12 kilometers (1,445 ± 7 mi)" +
-                " in diameter;[12] its mass is 0.28% that of the Earth and 27% greater than that of Pluto, although Pluto is slightly larger by " +
-                "volume. Both Eris and Pluto have a surface area that is comparable to the area of Russia or South America. ",
-                AccentColorStart = Color.FromArgb("#4e8187"),
-                AccentColorEnd = Color.FromArgb("#91cad1"),
-                Images = new()
-                {
-                    "https://science.nasa.gov/_ipx/animated_true&w_2048&f_webp/https://images-assets.nasa.gov/image/PIA03034/PIA03034~orig.jpg%3Fw=603%26h=200%26fit=clip%26crop=faces%252Cfocalpoint",
-                    "https://i.cbc.ca/1.1936894.1381378170!/httpImage/hi-852-eris-eso1142a.jpg"
-                }
-
-            },
-
-            new()
-            {
-                Name = "Ceres",
-                Subtitle = " The Insider Dwarf Planet",
-                HeroImage = "ceres.png",
-                Description = "Ceres (pronounced /ˈsɪəriːz/ SEER-eez), minor-planet designation 1 Ceres, is a dwarf " +
-                "planet in the middle main asteroid belt between the orbits of Mars and Jupiter. It was the first asteroid" +
-                " discovered on 1 January 1801, by Giuseppe Piazzi at Palermo Astronomical Observatory in Sicily and announced" +
-                " as a new planet. Ceres was later classified as an asteroid and then a dwarf planet, the only one always " +
-                "inside Neptune's orbit. ",
-                AccentColorStart = Color.FromArgb("#497873"),
-                AccentColorEnd = Color.FromArgb("#74b5ae"),
-                Images = new()
-                {
-                    "https://i.natgeofe.com/n/b4a4f4c3-269e-4f37-a94d-45d86cf0cb52/ceres_occatorcrater_square.jpg",
-                    "https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdUZsIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ca667488ed16597e35eaab71acd42034ca4f56c2/PIA20180-16-640x350.jpg",
-                    "https://www.universetoday.com/wp-content/uploads/2016/05/Ceres_-_Oxo_and_Haulani_craters.png"
-
-                }
-
-            },
-
-            new()
-            {
-                Name = "Makemake",
-                Subtitle = " The Brightest Dwarf Planet",
-                HeroImage = "makemake.png",
-                Description = "Makemake[e] (minor-planet designation 136472 Makemake) is a dwarf planet and the second-largest " +
-                "of what are known as the classical population of Kuiper belt objects, with a diameter approximately that of " +
-                "Saturn's moon Iapetus, or 60% that of Pluto.[24][25] It has one known satellite.[26] Its extremely low average " +
-                "temperature, about 40 K (−230 °C), means its surface is covered with methane, ethane, and possibly nitrogen ices.",
-                AccentColorStart = Color.FromArgb("#835a44"),
-                AccentColorEnd = Color.FromArgb("#b58b74"),
-                Images = new()
-                {
-                    "https://astrophotographylens.com/cdn/shop/articles/Makemake.jpg?v=1693095521",
-                    "https://upload.wikimedia.org/wikipedia/commons/2/29/Makemake_and_its_moon.jpg"
-                }
-
-            },
-
-            new()
-            {
-                Name = "Haumea",
-                Subtitle = " The Fastest Dwarf Planet",
-                HeroImage = "haumea.png",
-                Description = "Haumea (minor-planet designation 136108 Haumea) is a dwarf planet located beyond Neptune's orbit." +
-                " It was discovered in 2004 by a team headed by Mike Brown of Caltech at the Palomar Observatory in the United " +
-                "States and disputably also in 2005 by a team headed by José Luis Ortiz Moreno at the Sierra Nevada Observatory in " +
-                "Spain. On September 17, 2008, it was named after Haumea, the Hawaiian goddess of childbirth, under the expectation " +
-                "by the International Astronomical Union (IAU) that it would prove to be a dwarf planet. Nominal estimates make it " +
-                "the third-largest known trans-Neptunian object, after Eris and Pluto, and approximately the size of Uranus's moon Titania. ",
-                AccentColorStart = Color.FromArgb("#494746"),
-                AccentColorEnd = Color.FromArgb("#6d6d6c"),
-                Images = new()
-                {
-                    "https://scx2.b-cdn.net/gfx/news/hires/2017/59de5fc415107.jpg",
-                    "https://static.wikia.nocookie.net/planet-archives/images/2/2d/Haumea.png/revision/latest?cb=20131012022005"
-                }
-
-            },
         };
 
         public static List<Planet> GetFeaturedPlanets()
@@ -308,5 +188,6 @@ namespace MauiPlanets.Services
         }
 
         public static List<Planet> GetAllPlanets() => planets;
+
     }
 }
