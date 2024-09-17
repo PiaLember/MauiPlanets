@@ -16,9 +16,8 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#8d9098"),
                 Images = new()
                 {
-                    "https://cdn.theatlantic.com/thumbor/D15rQggf6357X1-u6VpTD2N1yQE=/0x27:1041x613/976x549/media/img/mt/2017/04/MercuryImage/original.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/73_carousel_mercury_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/75_mercury_carousel_1.jpg"
+                    "https://images-assets.nasa.gov/image/PIA11406/PIA11406~orig.jpg?w=720&h=486&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://science.nasa.gov/wp-content/uploads/2023/05/pia19285-mercury-jpg.webp?w=1536&format=webp"
                 }
             },
             new()
@@ -31,10 +30,8 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#d17f21"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/143_Venus-800x600.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/147_Hubble_Venus_Clouds-800x600.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/146_venus_carousel_3.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/144_PIA00485_Venus_Caldera-800.jpg"
+                    "https://images-assets.nasa.gov/image/PIA00271/PIA00271~large.jpg?w=1920&h=1920&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://science.nasa.gov/wp-content/uploads/2023/05/pia00159-venus.jpg?w=1536&format=webp"
                 }
             },
             new()
@@ -47,9 +44,8 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#2e97c7"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/68_epicearthmoonstill_800.png",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/69_earth_carousel_3.jpg",
-                    "https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg?width=778"
+                    "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001591/GSFC_20171208_Archive_e001591~large.jpg?w=1920&h=1920&fit=clip&crop=faces%2Cfocalpoint"
                 }
             },
             new()
@@ -62,9 +58,8 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#eb3333"),
                 Images = new()
                 {
-                    "https://researchfdi.com/wp-content/uploads/2021/10/8944_1-PIA24546-1280.jpeg",
-                    "https://www.worldatlas.com/r/w1300-q80/upload/bb/c3/32/shutterstock-1041249343.jpg",
-                    "https://www.openaccessgovernment.org/wp-content/uploads/2021/04/dreamstime_xxl_121672573-scaled.jpg"
+                    "https://images-assets.nasa.gov/image/PIA02653/PIA02653~large.jpg?w=1920&h=1920&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://images-assets.nasa.gov/image/PIA25680/PIA25680~orig.jpg?w=1024&h=1024&fit=clip&crop=faces%2Cfocalpoint",
                 }
             },
 
@@ -83,9 +78,8 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#cd8026"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
+                    "https://science.nasa.gov/wp-content/uploads/2024/04/pia00459.jpg?w=1536&format=webp",
+                    "https://science.nasa.gov/wp-content/uploads/2024/04/pia02277.jpg?w=1536&format=webp"
                 }
 
             },
@@ -102,10 +96,8 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#c6502f"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
+                    "https://science.nasa.gov/wp-content/uploads/2024/04/pia03152.jpg?w=1536&format=webp",
+                    "https://science.nasa.gov/wp-content/uploads/2024/04/pia01486.jpg?w=1536&format=webp"
                 }
 
             },
@@ -126,9 +118,9 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#996237"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg"
+                    "https://images-assets.nasa.gov/image/PIA18182/PIA18182~orig.jpg?w=1720&h=1720&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://science.nasa.gov/wp-content/uploads/2024/04/pia00041.jpg?w=1536&format=webp",
+                    "https://science.nasa.gov/wp-content/uploads/2024/04/pia00032.jpg?w=1536&format=webp"
                 }
 
             },
@@ -150,32 +142,125 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                    "https://science.nasa.gov/wp-content/uploads/2023/09/PIA01492-1.jpg?w=1536&format=webp",
+                    "https://images-assets.nasa.gov/image/PIA00057/PIA00057~orig.jpg?w=780&h=780&fit=clip&crop=faces%2Cfocalpoint"
                 }
 
             },
 
-            new()
+
+             new()
             {
                 Name = "Pluto",
-                Subtitle = " The In-Between (Dwarf) Planet",
+                Subtitle = "Pluto was named by an 11-year-old girl.",
                 HeroImage = "pluto.png",
-                Description = "Pluto (minor-planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies " +
-                "beyond the orbit of Neptune. It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It" +
-                " is the largest known trans-Neptunian object by volume, by a small margin, but is slightly less massive than Eris. Like " +
-                "other Kuiper belt objects, Pluto is made primarily of ice and rock and is much smaller than the inner planets. Pluto has" +
-                " only one sixth the mass of Earth's moon, and one third its volume. Pluto was recognized as a planet until 2006. ",
-                AccentColorStart = Color.FromArgb("#9b6547"),
-                AccentColorEnd = Color.FromArgb("#efb493"),
+                Description = "Pluto, discovered in 1930 by Clyde Tombaugh,"+
+                "is a dwarf planet in the outer solar system."+
+                "Originally considered the ninth planet, it was reclassified in 2006."+
+                "With a diameter of about 1,473 miles,"+
+                "Pluto has a thin atmosphere and a complex system of moons, including Charon."+
+                "NASA's New Horizons mission in 2015 provided detailed images,"+
+                "revealing diverse and geologically active features like icy mountains and plains."+
+                "The exploration of Pluto offers insights into the outer solar system.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
                 Images = new()
                 {
-                    "https://science.nasa.gov/_ipx/animated_true&w_2048&f_webp/https://images-assets.nasa.gov/image/PIA19702/PIA19702~large.jpg%3Fw=1920%26h=1920%26fit=clip%26crop=faces%252Cfocalpoint",
-                    "https://science.nasa.gov/_ipx/animated_true&w_2048&f_webp/https://images-assets.nasa.gov/image/PIA20544/PIA20544~orig.jpg%3Fw=855%26h=582%26fit=clip%26crop=faces%252Cfocalpoint",
-                    "https://science.nasa.gov/_ipx/animated_true&w_2048&f_webp/https://images-assets.nasa.gov/image/PIA11707/PIA11707~large.jpg%3Fw=1920%26h=960%26fit=clip%26crop=faces%252Cfocalpoint"
+                    "https://photojournal.jpl.nasa.gov/jpegMod/PIA21863_modest.jpg",
+                    "https://photojournal.jpl.nasa.gov/jpegMod/PIA11709_modest.jpg",
+                    "https://photojournal.jpl.nasa.gov/jpegMod/PIA21026_modest.jpg"
                 }
+            },
 
+            new()
+            {
+                Name = "Ceres",
+                Subtitle = "Ceres is named for the Roman goddess of corn and harvests.",
+                HeroImage = "ceres.png",
+                Description = "Ceres is the largest object in the asteroid belt between"+
+                "Mars and Jupiter and is classified as a dwarf planet."+
+                "Discovered by Italian astronomer Giuseppe Piazzi in 1801,"+
+                "Ceres has a diameter of about 590 miles (940 kilometers)."+
+                "It was the first dwarf planet to be visited by a spacecraft"+
+                "when NASA's Dawn mission orbited and studied it from 2015 to 2018."+
+                "Ceres is unique for hosting a large, bright area known as Occator Crater,"+
+                "which contains bright deposits believed to be composed of sodium carbonate,"+
+                "possibly originating from subsurface water."+
+                "The dwarf planet is of particular interest to scientists as it provides"+
+                "insights into the early solar system and the potential presence of water ice on its surface.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                    "https://photojournal.jpl.nasa.gov/jpegMod/PIA23017_modest.jpg",
+                    "https://photojournal.jpl.nasa.gov/jpegMod/PIA21918_modest.jpg",
+                    "https://photojournal.jpl.nasa.gov/jpegMod/PIA21906_modest.jpg"
+                }
+            },
+
+            new()
+            {
+                Name = "Haumea",
+                Subtitle = "Haumea is named after the Hawaiian goddess of fertility.",
+                HeroImage = "haumea.png",
+                Description = "Haumea is another dwarf planet in the Kuiper Belt,"+
+                "discovered in 2004 by a team of astronomers led by Mike Brown."+
+                "It is named after the Hawaiian goddess of fertility."+
+                "Haumea is distinctive due to its elongated shape, resembling a flattened ellipsoid,"+
+                "possibly the result of a rapid rotation. It has two known moons, Hi'iaka and Namaka,"+
+                "named after Hawaiian goddesses and discovered in 2005."+
+                "Haumea's surface is thought to be composed of crystalline water ice,"+
+                "and it displays a relatively high albedo, making it one of the brighter objects in the Kuiper Belt."+
+                "The discovery of Haumea and its unique characteristics has contributed to"+
+                "our understanding of the diversity of objects in the outer solar system.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                    "https://static.wikia.nocookie.net/expanse/images/1/1f/Haumea_in_Celestia.jpg/revision/latest?cb=20200206143331"
+                }
+            },
+            new()
+            {
+                Name = "MakeMake",
+                Subtitle = "Makemake was named after the Rapanui god of fertility.",
+                HeroImage = "makemake.png",
+                Description = "Makemake is another dwarf planet located in the Kuiper Belt,"+
+                "a region of the outer solar system beyond Neptune."+
+                "It was discovered in 2005 by astronomers using the Palomar Observatory."+
+                "Similar to Pluto and Eris, Makemake is part of the group of trans-Neptunian objects known as dwarf planets."+
+                "It is notable for its lack of a significant atmosphere and its relatively high albedo,"+
+                "indicating a bright and reflective surface, likely composed of a mixture of frozen methane"+
+                "ethane, and nitrogen. Makemake is the second-brightest dwarf planet after Pluto and"+
+                "is recognized as one of the largest objects in the Kuiper Belt."+
+                "Its discovery contributed to the ongoing understanding and classification of objects in the outer solar system.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                    "https://upload.wikimedia.org/wikipedia/commons/2/29/Makemake_and_its_moon.jpg"
+                }
+            },
+
+            new()
+            {
+                Name = "Eris",
+                Subtitle = "Eris is named for the ancient Greek goddess of discord and strife.",
+                HeroImage = "eris.png",
+                Description = "Eris, a dwarf planet situated in the scattered disk of the outer solar system,"+
+                "was identified in 2005 by astronomers at the Palomar Observatory."+
+                "Smaller than Pluto but more massive, Eris ranks among the largest dwarf planets."+
+                "Its orbit, more elliptical than Pluto's, places it at a greater average distance from the Sun."+
+                "Eris boasts a highly reflective surface, likely comprising a mix of water ice and frozen methane."+
+                "The discovery of Eris played a crucial role in the reclassification of Pluto and similar objects,"+
+                "leading to the establishment of the \"dwarf planet\" category by the International Astronomical Union (IAU).",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                    "https://photojournal.jpl.nasa.gov/jpegMod/PIA17307_modest.jpg",
+                    "https://photojournal.jpl.nasa.gov/jpegMod/PIA03034_modest.jpg"
+                }
             },
         };
 
